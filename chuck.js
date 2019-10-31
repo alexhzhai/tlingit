@@ -10,7 +10,7 @@ var config = {
     },
     luis = {
         text: {
-          name: "Luis Charles \"Chuck\" Miller / Daanax.ils’eik"
+          name: "Luis Charles \"Chuck\" Miller / Daanax.ils’eik",
         },
         image: "images/chuck.jpg"
     },
@@ -19,7 +19,7 @@ var config = {
         parent: luis,
         text:{
             name: "Edward David Charles Miller / Keich’Eesh, Yaanjindul.hein",
-            desc: "______"
+            desc: "Luis' son"
         }
     },
 
