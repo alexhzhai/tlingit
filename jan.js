@@ -18,17 +18,16 @@ var config = {
     janet = {
         parent: cecilia,
         text:{
-            name: "Janet Lee Ketchum Steinbright / Stan Tlaa",
-            desc: "______"
+            name: "Janet Lee Ketchum Steinbright / Stan Tlaa"
         },
-        image: "../headshots/1.jpg"
+        image: "images/jan.jpg"
     },
 
     dixon = {
         parent: janet,
         text:{
             name: "Dixon Scott Steinbright / Skeenya",
-            desc: "______"
+            desc: "Janet's son"
         }
     },
 
