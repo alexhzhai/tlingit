@@ -24,14 +24,6 @@ var config = {
         image: "../headshots/1.jpg"
     },
 
-    paul = {
-      parent: cecilia,
-      text: {
-        name: "Paul Manson Jackson / Gax Tlein",
-        desc: "Janet's husband"
-      }
-    },
-
     dixon = {
         parent: janet,
         text:{
@@ -45,6 +37,5 @@ var config = {
         config,
         cecilia,
         janet,
-        paul,
         dixon
     ];
