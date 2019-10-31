@@ -10,8 +10,7 @@ var config = {
     },
     luis = {
         text: {
-          name: "Luis Charles \"Chuck\" Miller / Daanax.ils’eik",
-          desc: "_________________"
+          name: "Luis Charles \"Chuck\" Miller / Daanax.ils’eik"
         },
         image: "images/chuck.jpg"
     },
