@@ -3,7 +3,7 @@
   color: #000000;
   background-image: linear-gradient(15deg, #8D191D 0%, #E3A578 70%);
   background-repeat: no-repeat;
-  background-size: 100px .2em;
+  background-size: 100% .2em;
   background-position: 0 85%;
   transition: background-size .25s linear, color .2s linear;
   text-decoration: none;

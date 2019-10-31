@@ -12,7 +12,8 @@ var config = {
         text: {
           name: "Cecilia Kunz / Stan Tlaa",
           desc: "Janet's adopted Naa Tlaa (clan mother)"
-        }
+        },
+        image: "images/cecilia.jpg"
     },
 
     janet = {
@@ -28,7 +29,8 @@ var config = {
         text:{
             name: "Dixon Scott Steinbright / Skeenya",
             desc: "Janet's son"
-        }
+        },
+        image: "images/dixon.jpg"
     },
 
 
