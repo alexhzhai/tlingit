@@ -1,6 +1,23 @@
-a {
+.m-underline {
+  cursor: pointer;
   color: #000000;
+  background-image: linear-gradient(15deg, #8D191D 0%, #E3A578 70%);
+  background-repeat: no-repeat;
+  background-size: 100px .2em;
+  background-position: 0 85%;
+  transition: background-size .25s linear, color .2s linear;
+  text-decoration: none;
+  padding: 3px;
 }
+.m-underline:hover {
+  color: #000000;
+  background-size: 100% 95%;
+}
+
+.subnav {
+  margin-right: 20px;
+}
+
 
 .centered {
   text-align: center;
@@ -19,24 +36,4 @@ a {
 .back {
   margin-left: 10px;
   font-family: 'Lato', sans-serif;
-}
-
-.m-underline {
-  cursor: pointer;
-
-  background-image: linear-gradient(15deg, #1b836c 0%, #b1c7d3 70%);
-  background-repeat: no-repeat;
-  background-size: 100px .2em;
-  background-position: 0 85%;
-  transition: background-size .25s linear, color .2s linear;
-  text-decoration: none;
-  padding: 3px;
-}
-.m-underline:hover {
-  color: #000000;
-  background-size: 100% 95%;
-}
-
-.subnav {
-  margin-right: 20px;
 }
