@@ -13,7 +13,18 @@
   color: #000000;
   background-size: 100% 95%;
 }
-
+.special-underline {
+  cursor: pointer;
+  color: #000000;
+  background-image: linear-gradient(15deg, #8D191D 0%, #E3A578 70%);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  background-position: 0 85%;
+  transition: background-size .25s linear, color .2s linear;
+  text-decoration: none;
+  padding: 3px;
+}
+.default {cursor: default;}
 .centered {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -52,6 +63,7 @@ hr {
     float: left;
     margin-top: 150px;
     margin-left: 20px;
+    margin-bottom: 30px;
     height: auto;
 }
 .third {
@@ -59,6 +71,7 @@ hr {
     float: left;
     margin-left: 20px;
     margin-top: 150px;
+    margin-bottom: 30px;
     height: auto;
 }
 .fourth {
@@ -66,6 +79,15 @@ hr {
     float: left;
     margin-left: 20px;
     margin-top: 150px;
+    margin-bottom: 30px;
+    height: auto;
+}
+.fifth {
+    width: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 30px;
     height: auto;
 }
 .clear {
@@ -85,5 +107,9 @@ body {
 }
 
 .dates {
+  color: #E3A578;
+}
+
+.audio {
   color: #E3A578;
 }

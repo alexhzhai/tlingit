@@ -25,7 +25,7 @@ var config = {
             name: "Janet Lee Ketchum Steinbright / Stan Tlaa"
         },
         link: {
-          href: "javascript:showJanInfo();"
+          href: "javascript:showJanInfo();showMarriageInfo();"
         },
         image: "images/small/jan.jpg"
     },
@@ -72,6 +72,16 @@ function showJanInfo() {
 
 function showDixonInfo() {
   var x = document.getElementById("dixonInfo");
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  }
+  else {
+    x.style.display = 'none';
+  }
+}
+
+function showMarriageInfo() {
+  var x = document.getElementById("marriageInfo");
   if (x.style.display === 'none') {
     x.style.display = 'block';
   }
