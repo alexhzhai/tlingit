@@ -36,6 +36,9 @@ var config = {
             name: "Dixon Scott Steinbright / Skeenya",
             desc: "Janet's son"
         },
+        link: {
+          href: "javascript:showDixonInfo();"
+        },
         image: "images/dixon.jpg"
     },
 
@@ -47,21 +50,32 @@ var config = {
         dixon
     ];
 
-
-function showJanInfo() {
-  var x = document.getElementById("janInfo");
-  if (x.style.display !== "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function showCeciliaInfo() {
+  var x = document.getElementById("ceciliaInfo");
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  }
+  else {
+    x.style.display = 'none';
   }
 }
 
-function showCeciliaInfo() {
-  var x = document.getElementById("ceciliaInfo");
-  if (x.style.display !== "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function showJanInfo() {
+  var x = document.getElementById("janInfo");
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  }
+  else {
+    x.style.display = 'none';
+  }
+}
+
+function showDixonInfo() {
+  var x = document.getElementById("dixonInfo");
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+  }
+  else {
+    x.style.display = 'none';
   }
 }

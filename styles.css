@@ -61,6 +61,13 @@ hr {
     margin-top: 150px;
     height: auto;
 }
+.fourth {
+    width: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 150px;
+    height: auto;
+}
 .clear {
     clear: both;
 }
