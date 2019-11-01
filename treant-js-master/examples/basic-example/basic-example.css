@@ -37,3 +37,8 @@ body { background: #fff; }
 .red {
     background-color: #8D191D;
 }
+
+a {
+  color: #E3A578;
+  text-decoration: none; 
+}

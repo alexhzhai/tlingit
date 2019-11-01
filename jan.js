@@ -13,12 +13,14 @@ var config = {
           name: "Cecilia Kunz / Stan Tlaa",
           desc: "Janet's adopted Naa Tlaa (clan mother)"
         },
+        link: {
+          href: "javascript:showCeciliaInfo();"
+        },
         image: "images/cecilia.jpg"
     },
 
     janet = {
         parent: cecilia,
-        HTMLclass: 'tan',
         text:{
             name: "Janet Lee Ketchum Steinbright / Stan Tlaa"
         },
@@ -49,8 +51,17 @@ var config = {
 function showJanInfo() {
   var x = document.getElementById("janInfo");
   if (x.style.display !== "none") {
-    x.style.display = "none";
-  } else {
     x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function showCeciliaInfo() {
+  var x = document.getElementById("ceciliaInfo");
+  if (x.style.display !== "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
 }

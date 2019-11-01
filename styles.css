@@ -51,8 +51,24 @@ hr {
     width: auto;
     float: left;
     margin-top: 150px;
+    margin-left: 20px;
+    height: auto;
+}
+.third {
+    width: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 150px;
     height: auto;
 }
 .clear {
     clear: both;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.addtlInfo {
+  display: none;
 }
