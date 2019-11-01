@@ -22,7 +22,7 @@ var config = {
         parent: luis,
         text:{
             name: "Edward David Charles Miller / Keich’Eesh, Yaanjindul.hein",
-            desc: "Luis' son"
+            desc: "Luis' youngest son"
         },
         link: {
           href: "javascript:showEdwardInfo();"
