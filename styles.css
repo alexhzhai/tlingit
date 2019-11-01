@@ -79,3 +79,11 @@ body {
 .addtlInfo {
   display: none;
 }
+
+.info-paragraph {
+  width: 300px;
+}
+
+.dates {
+  color: #E3A578;
+}
