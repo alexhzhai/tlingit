@@ -1,3 +1,16 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .m-underline {
   cursor: pointer;
   color: #000000;
@@ -12,6 +25,21 @@
 .m-underline:hover {
   color: #000000;
   background-size: 100% 95%;
+}
+.m-underline-large {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000000;
+  background-image: linear-gradient(15deg, #8D191D 0%, #E3A578 70%);
+  background-repeat: no-repeat;
+  background-size: 0% 0;
+  background-position: 0 85%;
+  transition: background-size .25s linear, color .2s linear;
+  padding: 3px;
+}
+.m-underline-large:hover {
+  color: #ffffff;
+  background-size: 100% 150%;
 }
 .special-underline {
   cursor: pointer;
@@ -36,7 +64,8 @@
   right: 0;
   width: 30%;
   height: 30%;
-  margin: auto;
+  margin-left: 25%;
+  margin-top: 100px;
 }
 
 .back {
@@ -93,7 +122,16 @@ hr {
 .clear {
     clear: both;
 }
-
+.firstt {
+    width: auto;
+    float: left;
+    height: auto;
+}
+.secondt {
+  width: auto;
+  float: left;
+  height: auto;
+}
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -112,4 +150,35 @@ body {
 
 .audio {
   color: #E3A578;
+  cursor: url(myBall.cur),auto;
+}
+
+.tan {
+    background-color: #E3A578;
+}
+
+.red {
+    background-color: #8D191D;
+}
+
+.name {
+  color: #E3A578;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+  background-image: linear-gradient(15deg, #8D191D 0%, #E3A578 70%);
+  background-repeat: no-repeat;
+  background-size: 100% 15%;
+  background-position: 0 85%;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.figc {
+  text-decoration: none;
 }
