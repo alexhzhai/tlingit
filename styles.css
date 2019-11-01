@@ -31,4 +31,28 @@
 .back {
   margin-left: 10px;
   font-family: 'Lato', sans-serif;
+  float: left;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cont {
+    width: auto;
+}
+.first {
+    width: auto;
+    float: left;
+    height: auto;
+}
+.second {
+    width: auto;
+    float: left;
+    margin-top: 150px;
+    height: auto;
+}
+.clear {
+    clear: both;
 }

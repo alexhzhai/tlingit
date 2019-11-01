@@ -18,8 +18,12 @@ var config = {
 
     janet = {
         parent: cecilia,
+        HTMLclass: 'tan',
         text:{
             name: "Janet Lee Ketchum Steinbright / Stan Tlaa"
+        },
+        link: {
+          href: "javascript:showJanInfo();"
         },
         image: "images/jan.jpg"
     },
@@ -40,3 +44,13 @@ var config = {
         janet,
         dixon
     ];
+
+
+function showJanInfo() {
+  var x = document.getElementById("janInfo");
+  if (x.style.display !== "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
