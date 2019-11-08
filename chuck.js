@@ -26,7 +26,8 @@ var config = {
         },
         link: {
           href: "javascript:showEdwardInfo();"
-        }
+        },
+        image: "images/small/edward.jpg"
     },
 
 
