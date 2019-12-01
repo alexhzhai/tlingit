@@ -8,7 +8,7 @@ As part of the course, we spend 12 days in Alaska, exploring Sitka, Juneau, and 
 
 The Tlingit language is from the Na-Dene language family and has a highly complex phonology, in comparison to modern Indo-European languages. Unfortunately, it is also highly endangered, with only 500 fluent speakers in Alaska in 2007.
 
-My project explores this rich language, investigating the social dynamics that lead parents to chose certain names for their children. My project also studies how identity is defined in American Indian groups and how familial traditions are preserved and passed on.
+My project explores this rich language, investigating the social dynamics that lead parents to choose certain names for their children. My project also studies how identity is defined in American Indian groups and how familial traditions are preserved and passed on.
 
 ## Acknowledgements
 Thank you to Janet Lee Ketchum Steinbright and Luis Charles Miller for sharing their time and their stories with me.
